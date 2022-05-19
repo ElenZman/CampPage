@@ -47,6 +47,27 @@ footer{
   height: 22em;
  
 }
+
+.caption-template{
+   
+    display: flex;
+    width: 50%;
+        margin: 2em auto;
+        padding: .5em;
+        min-height: 5em;
+        max-height: 8em;
+       
+       position: relative;
+       top: -355px;
+       left: 1px;
+       color: black;
+        background-color: rgba(255,255,255, .35);
+        border-radius: .5em;
+      
+      }
+ .carousel-item img:hover + .caption-template{
+   transform: scale(0);
+}
   
 .features-img {
     width: 17%;

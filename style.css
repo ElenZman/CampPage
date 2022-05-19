@@ -209,6 +209,12 @@ footer{
        
       }
 
+   .caption-template{
+        width: 40%;
+       
+       top: -255px;  
+      }
+
 }
 
 
@@ -261,7 +267,11 @@ footer{
 .carousel-img{
     width: 100%;
     height: 22em;
+}
+.caption-template{
+    width: 50%;
    
+   top: -355px;  
   }
 
 }

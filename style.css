@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
+}
+
+footer{
+    height: 4.5em;
+}
+.social-media {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social-media-img {
+   min-width: 20px;
+   max-width: 100%;
+   height: 1.2em;
+
+}
+
+.text {
+    width: 95%;
+    height: auto;
+    margin-left: 1.5em;
+
+}
+#carousel{
+    width: 40%; 
+    height: 22em;
+    
+}
+
+.carousel-img{
+  width: 100%;
+  height: 22em;
+ 
+}
+  
+.features-img {
+    width: 17%;
+    height: 3em;
+}
+
+#one {
+    border-bottom: 1px solid black;
+
+}
+
+#two {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#three {
+    border-bottom: 1px solid black;
+
+}
+
+#four {
+    border-bottom: 1px solid black;
+}
+
+#five {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#six {
+    border-bottom: 1px solid black;
+}
+
+.order {
+    order: 0;
+}
+
+#form{
+    width: 75%;
+}
+#copyright {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 575px) {
+
+    #copyright {
+        font-size: .750rem;
+    }
+
+    .order {
+        order: 2;
+    }
+
+    #two {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    #five {
+        border-left: none !important;
+        border-right: none !important;
+    }
+    #carousel{
+        width: 80%; 
+        height: 13em;   
+    }
+    .carousel-img{
+        width: 100%;
+        height: 13em;
+       
+      }
+    
+
+}
+
+@media screen and (min-width: 575px) {
+
+    .order {
+        order: 2;
+    }
+
+    #two {
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    #five {
+        border-left: none !important;
+        border-right: none !important;
+    }
+   
+    #carousel{
+        width: 80%; 
+        height: 13em;          
+    }
+    .carousel-img{
+        width: 100%;
+        height: 13em;
+       
+      }
+}
+
+@media screen and (min-width: 750px) {
+
+    
+    #one{
+             
+        border-right: 1px solid black;
+    }
+    #four{
+        border-left: 1px solid black;
+        
+    }
+    #five {
+        border-bottom: none !important;
+        border-right: 1px solid black;
+    }
+
+    #six {
+        border-left: 1px solid black;
+        border-bottom: none !important;
+    }
+
+    .order {
+        order: 0;
+    }
+    #carousel{
+        width: 60%; 
+        height: 16em;
+        
+    }
+    .carousel-img{
+        width: 100%;
+        height: 16em;
+       
+      }
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+    #one {
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+    
+    }
+    
+    #two {
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    
+    #three {
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        
+    
+    }
+    #four {
+        border-bottom: none!important;
+        border-right:  1px solid black;
+        border-left:  none!important;
+    }
+    
+    #five {
+        border-bottom: none!important;
+        border-left: 1px solid black;
+    }
+    
+    #six {
+        border-bottom: none!important;
+    }
+   
+    .order {
+        order: 0;
+    }
+   #form{
+    width: 60%;
+}
+#carousel{
+    width: 40%; 
+    height: 22em;   
+    
+}
+.carousel-img{
+    width: 100%;
+    height: 22em;
+   
+  }
+
+}
+    
